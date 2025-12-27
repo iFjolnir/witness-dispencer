@@ -38,7 +38,7 @@ html, body {
 
 /* --- App frame --- */
 #app {
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
@@ -126,6 +126,7 @@ button:active {
   pointer-events: none;
   margin-bottom: 12px;
 }
+
 
 
 
