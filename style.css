@@ -92,6 +92,14 @@ button {
   background: var(--button-bg);
   color: var(--button-text);
   cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
 }
 
 
@@ -128,6 +136,7 @@ button:active {
   pointer-events: none;
   margin-bottom: 12px;
 }
+
 
 
 
