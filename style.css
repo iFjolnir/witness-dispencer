@@ -41,6 +41,8 @@ html, body {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /* --- Text area (top ~2/3) --- */
@@ -126,6 +128,7 @@ button:active {
   pointer-events: none;
   margin-bottom: 12px;
 }
+
 
 
 
