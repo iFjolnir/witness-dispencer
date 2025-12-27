@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okay.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main id="app">
+
+    <div id="text-area">
+	<div id="phrase">
+	  Hey.
+	</div>
+    </div>
+
+    <div id="controls">
+
+      <!-- subtext floats ABOVE the button -->
+      <div id="subtext" hidden>
+        Stay as long as you need.
+      </div>
+
+      <div id="button-row">
+        <button id="main-button">
+          Hey.
+        </button>
+
+        <button id="confetti-button" hidden>
+          🎉
+        </button>
+      </div>
+
+    </div>
+
+  </main>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="phrases-main.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
